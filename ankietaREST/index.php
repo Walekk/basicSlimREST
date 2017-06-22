@@ -8,6 +8,8 @@ spl_autoload_register(function ($classname) {
     require ("../classes/" . $classname . ".php");
 });
 
+
+
 $config['displayErrorDetails'] = true;
 $config['addContentLengthHeader'] = false;
 
@@ -29,8 +31,6 @@ $container['db'] = function ($c) {
     return $pdo;
 };
 
-$mapper = new TicketMapper($this->db);
-
 $app->get('/hello/{name}', function (Request $request, Response $response) {
     $name = $request->getAttribute('name');
     $response->getBody()->write("Hello, $name");
@@ -43,13 +43,5 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
     return $newerRespone;
 });
 
-$app->get('/tickets', function (Request $request, Response $response) {
-    $this->logger->addInfo("Ticket list");
-    $mapper = new TicketMapper($this->db);
-    $tickets = $mapper->getTickets();
-
-    $response->getBody()->write(var_export($tickets, true));
-    return $response;
-});
 
 $app->run();
