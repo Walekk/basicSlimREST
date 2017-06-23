@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b2521a-d286-4a03-bccf-1006afbeaec1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ankietaREST/QuestionEntity.php" afterPath="$PROJECT_DIR$/ankietaREST/QuestionEntity.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ankietaREST/QuestionsMapper.php" afterPath="$PROJECT_DIR$/ankietaREST/QuestionsMapper.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,23 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionsMapper.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionsMapper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionsMapper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <marker date="1498166102000" expanded="true" signature="96:224" ph="SELECT t.id,... tickets" />
+                <marker date="1498216345000" expanded="true" signature="96:224" ph="SELECT t.id,... tickets" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionEntity.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuestionEntity.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionEntity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -71,8 +72,8 @@
         <option value="$PROJECT_DIR$/ankietaREST/Mapper.php" />
         <option value="$PROJECT_DIR$/ankietaREST/questionsMapper.php" />
         <option value="$PROJECT_DIR$/ankietaREST/QuestionEnitity.php" />
-        <option value="$PROJECT_DIR$/ankietaREST/QuestionEntity.php" />
         <option value="$PROJECT_DIR$/ankietaREST/QuestionsMapper.php" />
+        <option value="$PROJECT_DIR$/ankietaREST/QuestionEntity.php" />
       </list>
     </option>
   </component>
@@ -251,12 +252,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498161333267</updated>
-      <workItem from="1498161335417" duration="2836000" />
+      <workItem from="1498161335417" duration="3296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2836000" />
+    <option name="totallyTimeSpent" value="3296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -318,21 +319,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionEntity.php">
+    <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionsMapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1498216345000" expanded="true" signature="96:224" ph="SELECT t.id,... tickets" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionsMapper.php">
+    <entry file="file://$PROJECT_DIR$/ankietaREST/QuestionEntity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <marker date="1498166102000" expanded="true" signature="96:224" ph="SELECT t.id,... tickets" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

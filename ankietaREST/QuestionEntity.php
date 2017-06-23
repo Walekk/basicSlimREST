@@ -1,5 +1,5 @@
 <?php
-class TicketEntity
+class QuestionEntity
 {
     protected $id;
     protected $description;

@@ -1,5 +1,5 @@
 <?php
-class questionsMapper extends Mapper {
+class QuestionsMapper extends Mapper {
     public function getTickets() {
         $sql = "SELECT t.id, t.description, t.correctAnswear
             from tickets t
